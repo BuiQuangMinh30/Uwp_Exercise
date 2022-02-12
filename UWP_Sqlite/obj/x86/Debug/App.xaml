@@ -1,0 +1,24 @@
+﻿<Application
+    x:Class="UWP_Sqlite.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_Sqlite">
+
+    <Application.Resources>
+    <DataTemplate x:Key="PersonListItem">
+        <Grid Height="60">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding Name}"/>
+            <TextBlock Text="{Binding Description}" Grid.Row="1"/>
+        </Grid>
+    </DataTemplate>
+    </Application.Resources>
+</Application>
+

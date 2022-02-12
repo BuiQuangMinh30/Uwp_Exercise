@@ -1,0 +1,1 @@
+D:\CSharp\FPT\T2012E_Helloworld\UWP_Sqlite\UWP_Sqlite.csproj;x86
